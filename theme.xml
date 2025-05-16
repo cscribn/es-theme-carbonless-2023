@@ -42,9 +42,10 @@ originally based on: "simple" by nils bonenberger
     <psxbuttons>Playstation buttons</psxbuttons>
   </variables>
 
+  <include lang="en">./lang/en.xml</include>
   <include lang="fr">./lang/fr.xml</include>
   <include lang="pt">./lang/pt.xml</include>
-  
+
   <!-- Colorsets  -->
   <subset name="colorset" displayName="${subset.colorset}">
     <include name="blue" displayName="${blue}">./subsets/colorsets/blue.xml</include>
@@ -61,7 +62,7 @@ originally based on: "simple" by nils bonenberger
   <include>./views/menu.xml</include>
   <include>./views/screen.xml</include>
   <include>./views/system.xml</include>
-  
+
   <!-- Subset option for System extended informations -->
   <subset name="subsetSystemInfoEx" displayName="${systemViewExInfos}" tinyScreen="false">
     <include name="yes" displayName="${yes}">./subsets/extendedinfo.xml</include>
@@ -111,7 +112,7 @@ originally based on: "simple" by nils bonenberger
   <include>./views/boxes.xml</include>
   <include>./views/carousel.xml</include>
   <include>./views/tiles.xml</include>
-  <include>./views/icons.xml</include>  
+  <include>./views/icons.xml</include>
 
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
@@ -185,7 +186,7 @@ originally based on: "simple" by nils bonenberger
   <subset name="marqueetiles" displayName="Logos" appliesTo="Tiles">
     <include name="yes" displayName="${yes}">./subsets/tiles/marquee.xml</include>
     <include name="no" displayName="${no}"/>
-  </subset>  
+  </subset>
  	<subset name="carouselimagesource" displayName="${gamecarouseltype}" appliesTo="gamecarousel">
 		<include name="marquee">./subsets/carouselimagesource/marquee.xml</include>
 		<include name="image">./subsets/carouselimagesource/image.xml</include>

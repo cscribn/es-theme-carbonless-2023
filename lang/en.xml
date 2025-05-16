@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- English -->
+  <variables lang="en">
+    <tilesViewName>Thumbnails</tilesViewName>
+    <iconsViewName>Icons</iconsViewName>
+    <basicGridName>Boxes</basicGridName>
+    <carouselViewName>Carousels</carouselViewName>
+    <blue>Blue</blue>
+    <red>Red</red>
+    <green>Green</green>
+    <yellow>Yellow</yellow>
+    <gray>Gray</gray>
+    <none>None</none>
+    <roundBorderSubsetName>Round edges</roundBorderSubsetName>
+    <blinkBorderSubsetName>Blinking edges</blinkBorderSubsetName>
+    <yes>Yes</yes>
+    <no>No</no>
+    <systemBackgroundName>Background</systemBackgroundName>
+    <systemViewName>System view</systemViewName>
+    <previewBarSubsetName>Preview pane</previewBarSubsetName>
+    <videoboxesSubsetName>Show video in box mode</videoboxesSubsetName>
+    <zoomboxesSubsetName>Zoom boxes</zoomboxesSubsetName>
+    <hideselectionSubsetName>Hide selection</hideselectionSubsetName>
+    <optimizesmallscreensSubsetName>Optimize for small screens</optimizesmallscreensSubsetName>
+    <animationsSubsetName>Transition animations</animationsSubsetName>
+    <helpSubsetName>Help icons</helpSubsetName>
+    <colored>Colorful</colored>
+    <subset.colorset>Color scheme</subset.colorset>
+    <subset.shader>Filters</subset.shader>
+    <glowSubsetName>Selection with halo</glowSubsetName>
+    <systemViewExInfos>Improved system information</systemViewExInfos>
+    <dateFormat>%m/%d/%Y</dateFormat>
+    <helpbuttons>Position of buttons</helpbuttons>
+    <gamecarouseltype>Image source for Carousel</gamecarouseltype>
+    <gameBar>Game information bar</gameBar>
+  </variables>
+</theme>
